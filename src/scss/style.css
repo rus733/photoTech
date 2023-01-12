@@ -12149,37 +12149,11 @@ h3 {
 }
 
 /* identical to box height, or 150% */
-.descr {
-  padding: 15px 0;
-  font-size: 14px;
-  line-height: 1.5;
-}
 .descr-wr {
   background: #f1f2f3;
 }
-.descr-wr__img {
-  margin-right: 11px;
-  display: inline-block;
-}
-.descr-wr__link {
-  display: inline-block;
-  text-align: left;
-  font-size: 12px;
-  line-height: 1.67;
-  color: #f15d22;
-}
-.descr-wr__link:hover {
-  color: #333333;
-}
-.descr-wr__doc {
-  width: 100%;
-  padding-left: 0px;
-  font-size: 12px;
-  line-height: 1.67;
-  color: #333333;
-}
-.descr-wr__info {
-  width: 100%;
+.descr-wr-l {
+  background: #000;
 }
 
 @media (min-width: 375px) {
@@ -12286,6 +12260,10 @@ h3 {
 .uk-text-18 {
   font-size: 18px;
   line-height: 1.5;
+}
+
+.uk-container {
+  background: #000;
 }
 
 @font-face {
