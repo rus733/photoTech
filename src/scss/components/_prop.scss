@@ -1,0 +1,50 @@
+.prop {
+  //   // padding: 15px 0 20px 0;
+  &-wr {
+    //     &__right {
+    //       padding: 10px 15px;
+    //       position: relative;
+    //     }
+    &__block {
+      // padding: 10px 0 20px 0;
+      border-top: 1px solid #e5e5e5;
+      border-bottom: 1px solid #e5e5e5;
+    }
+    //   &__title {
+    //     // font-size: 18px;
+    //     font-size: 16px;
+    //     line-height: 1.28;
+    //     /* or 128% */
+    //     color: #333333;
+    //   }
+    //   &__list {
+    //     padding: 20px 0;
+    //   }
+    //   &__link {
+    //     font-size: 14px;
+    //     line-height: 21px;
+    //     /* identical to box height, or 150% */
+    //     color: #f15d22;
+    //     &:hover {
+    //       color: #333333;
+    //     }
+    //   }
+    // }
+  }
+}
+// ********************************
+@media (min-width: 320px) {
+}
+@media (min-width: 375px) {
+}
+
+@media (min-width: 640px) {
+}
+@media (min-width: 960px) {
+}
+
+@media (min-width: 1280px) {
+}
+
+@media (min-width: 1600px) {
+}

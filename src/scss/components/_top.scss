@@ -1,0 +1,160 @@
+$mar21: 21px;
+
+// SCSS Миксин:
+$maxWidth: 1200;
+@mixin adaptiv-font($pcSize, $mobSize) {
+  $addSize: $pcSize - $mobSize;
+  $maxWidth: $maxWidth - 320;
+  font-size: calc(#{$mobSize + px} + #{$addSize} * ((100vw - 320px) / #{$maxWidth}));
+}
+//  вызов миксина в любом месте css
+//
+// @include adaptiv-font(40,24)
+//
+
+@mixin adaptiv-font($pcSize, $mobSize) {
+  $addSize: $pcSize - $mobSize;
+  $maxWidth: $maxWidth - 320;
+  font-size: calc(#{$mobSize + px} + #{$addSize} * ((100vw - 320px) / #{$maxWidth}));
+}
+// ********************************************************
+// $mar21: calc(10px + (21 - 10) * ((100vw - 960px) / (1200 - 960)));
+// ************************************
+.top {
+  display: none;
+  padding: 7px 0;
+  background: #f1f2f3;
+  &-wr {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+  }
+  &-left {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    // margin-right: 50px;
+    margin-left: 30px;
+  }
+  &-right {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  &-menu {
+    & li {
+      &:not(:last-of-type) {
+        margin-right: 15px;
+      }
+    }
+    & li a {
+      font-family: 'Open Sans', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 150%;
+      // text-decoration-line: underline;
+      text-transform: none;
+      color: #666666;
+    }
+  }
+  &-menu li a:hover {
+    text-decoration-line: underline;
+    color: #ea510d;
+    // text-transform: none;
+  }
+}
+.city-menu {
+  display: flex;
+  font-size: 13px;
+  line-height: 150%;
+  margin-right: $mar21;
+
+  & a {
+    font-size: 12px;
+    line-height: 162%;
+    text-decoration-line: underline;
+  }
+  & span {
+    display: inline-block;
+  }
+}
+.free-text {
+  font-size: 10px;
+  line-height: 150%;
+
+  text-align: right;
+  text-decoration-line: underline;
+
+  color: #8e8e8e;
+  margin-right: $mar21;
+}
+.phones {
+  margin-right: $mar21;
+  & a {
+    font-size: 18px;
+
+    // font-size: calc(12px + (18 - 12) * ((100vw - 960px) / (1200 - 960)));
+    line-height: 150%;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #333333;
+    &__img {
+      margin-right: 6px;
+    }
+  }
+}
+.local {
+  display: flex;
+  margin-right: $mar21;
+}
+
+// ***************** media *************
+
+@media (min-width: 320px) {
+}
+@media (min-width: 375px) {
+  .city-menu {
+    margin-right: 10px;
+  }
+  .phones {
+    margin-right: 10px;
+    & a {
+      font-size: 13px;
+    }
+  }
+}
+
+@media (min-width: 640px) {
+}
+@media (min-width: 960px) {
+  .top {
+    display: block;
+    &-wr {
+      gap: 10px;
+    }
+    &-left {
+      width: 33.33333%;
+    }
+    &-right {
+      width: 66.66667%;
+    }
+  }
+}
+
+@media (min-width: 1280px) {
+  .top {
+    &-left {
+      width: 45%;
+    }
+    &-right {
+      width: 55%;
+    }
+  }
+}
+
+@media (min-width: 1600px) {
+}
