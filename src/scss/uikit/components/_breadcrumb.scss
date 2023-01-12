@@ -1,0 +1,14 @@
+$breadcrumb-divider-margin-horizontal: 10px;
+
+// .uk-breadcrumb {
+//   padding: 0;
+//   list-style: none;
+//   @if (mixin-exists(hook-breadcrumb)) {
+//     @include hook-breadcrumb();
+//   }
+// }
+// .uk-breadcrumb > :nth-child(n + 2):not(.uk-first-column)::before {
+//   content: "/";
+//   margin: 0 10px 0 10px;
+//   font-size: 0.875rem;
+// }
