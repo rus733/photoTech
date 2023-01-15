@@ -4,6 +4,13 @@
   }
 }
 
+.uk-descr-wr__button {
+  width: 100%;
+}
+.uk-deskr-wr__text {
+  width: 100%;
+}
+
 // ********************************
 @media (min-width: 320px) {
 }
@@ -13,6 +20,12 @@
 @media (min-width: 640px) {
 }
 @media (min-width: 960px) {
+  .uk-deskr-wr__text {
+    width: 200px;
+  }
+  .uk-descr-wr__button {
+    width: 341px;
+  }
 }
 
 @media (min-width: 1280px) {

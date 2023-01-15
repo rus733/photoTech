@@ -1,4 +1,5 @@
 $padding-small-padding: 5px;
+
 .uk-padding-small_bottom {
   padding: 15px 15px 35px 15px;
 }
@@ -16,4 +17,25 @@ $padding-small-padding: 5px;
 }
 .uk-padding-10-0-20 {
   padding: 10px 0 20px 0;
+}
+
+.uk-padding-20-30 {
+  padding: 15px 15px;
+}
+
+// .uk-padding-right-25: 25px;
+
+/* Тут классы с 640px до 960px */
+@media (min-width: 640px) {
+}
+
+/* Тут классы с 960px до 1200px */
+@media (min-width: 960px) {
+  .uk-padding-20-30 {
+    padding: 20px 30px;
+  }
+}
+
+/* Тут классы с 1200px до 1600px */
+@media (min-width: 1200px) {
 }

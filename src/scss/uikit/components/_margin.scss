@@ -1,3 +1,20 @@
 .uk-margin-medium-bottom-30 {
   margin: 0 0 30px 0;
 }
+.uk-margin-bottom-0 {
+  margin-bottom: 0;
+}
+/* Тут классы с 640px до 960px */
+@media (min-width: 640px) {
+}
+
+/* Тут классы с 960px до 1200px */
+@media (min-width: 960px) {
+  .uk-margin-small-bottom {
+    margin-bottom: 0;
+  }
+}
+
+/* Тут классы с 1200px до 1600px */
+@media (min-width: 1200px) {
+}

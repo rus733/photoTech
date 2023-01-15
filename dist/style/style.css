@@ -11967,6 +11967,22 @@ h3 {
   background: #f1f2f3;
 }
 
+.uk-descr-wr__button {
+  width: 100%;
+}
+
+.uk-deskr-wr__text {
+  width: 100%;
+}
+
+@media (min-width: 960px) {
+  .uk-deskr-wr__text {
+    width: 200px;
+  }
+  .uk-descr-wr__button {
+    width: 341px;
+  }
+}
 .prop-wr__block {
   border-top: 1px solid #e5e5e5;
   border-bottom: 1px solid #e5e5e5;
@@ -12014,10 +12030,34 @@ h3 {
   padding: 10px 0 20px 0;
 }
 
+.uk-padding-20-30 {
+  padding: 15px 15px;
+}
+
+/* Тут классы с 640px до 960px */
+/* Тут классы с 960px до 1200px */
+@media (min-width: 960px) {
+  .uk-padding-20-30 {
+    padding: 20px 30px;
+  }
+}
+/* Тут классы с 1200px до 1600px */
 .uk-margin-medium-bottom-30 {
   margin: 0 0 30px 0;
 }
 
+.uk-margin-bottom-0 {
+  margin-bottom: 0;
+}
+
+/* Тут классы с 640px до 960px */
+/* Тут классы с 960px до 1200px */
+@media (min-width: 960px) {
+  .uk-margin-small-bottom {
+    margin-bottom: 0;
+  }
+}
+/* Тут классы с 1200px до 1600px */
 .uk-text-13 {
   font-size: 13px;
   line-height: 1.3;
