@@ -11975,12 +11975,55 @@ h3 {
   width: 100%;
 }
 
+.uk-block-toggle-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.uk-button-toggle-form {
+  max-width: 360px;
+  width: 100%;
+}
+
+.uk-gap-40 {
+  gap: 40px;
+}
+
+.uk-gap-25 {
+  gap: 25px;
+}
+
+.uk-gap-10 {
+  gap: 10px;
+}
+
+@media (min-width: 640px) {
+  .uk-gap-10\@s {
+    gap: 10px;
+  }
+}
+@media (min-width: 640px) {
+  .uk-gap-10\@s {
+    gap: 10px;
+  }
+}
+@media (min-width: 768px) {
+  .uk-flex-center\@sm {
+    justify-content: center;
+  }
+}
 @media (min-width: 960px) {
   .uk-deskr-wr__text {
     width: 200px;
   }
   .uk-descr-wr__button {
     width: 341px;
+  }
+  .uk-button-toggle-form {
+    max-width: 340px;
+    width: 100%;
   }
 }
 .prop-wr__block {
