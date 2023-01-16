@@ -58,6 +58,14 @@
   .uk-block-toggle-form > .descr-wr__block {
     display: flex;
   }
+
+  .uk-descr-wr__button {
+    max-width: 360px;
+    width: 100%;
+  }
+  .uk-button-toggle-form {
+    max-width: 360px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -79,13 +87,6 @@
 
   .uk-deskr-wr__text {
     width: 200px;
-  }
-  .uk-descr-wr__button {
-    max-width: 360px;
-    width: 100%;
-  }
-  .uk-button-toggle-form {
-    max-width: 360px;
   }
 }
 
