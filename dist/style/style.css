@@ -11968,6 +11968,7 @@ h3 {
 }
 
 .uk-descr-wr__button {
+  width: 341px;
   width: 100%;
 }
 
@@ -11977,14 +11978,22 @@ h3 {
 
 .uk-block-toggle-form {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
   gap: 20px;
 }
 
+.uk-block-toggle-form > .descr-wr__block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px 10px;
+}
+
 .uk-button-toggle-form {
   max-width: 360px;
-  width: 100%;
 }
 
 .uk-gap-40 {
@@ -12000,18 +12009,26 @@ h3 {
 }
 
 @media (min-width: 640px) {
+  .uk-flex-left\@sm {
+    justify-content: flex-start;
+  }
   .uk-gap-10\@s {
     gap: 10px;
   }
-}
-@media (min-width: 640px) {
-  .uk-gap-10\@s {
-    gap: 10px;
+  .uk-block-toggle-form > .descr-wr__block {
+    display: flex;
   }
 }
 @media (min-width: 768px) {
   .uk-flex-center\@sm {
     justify-content: center;
+  }
+  .uk-block-toggle-form {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  .uk-block-toggle-form > .descr-wr__block {
+    justify-content: flex-start;
   }
 }
 @media (min-width: 960px) {
@@ -12019,11 +12036,16 @@ h3 {
     width: 200px;
   }
   .uk-descr-wr__button {
-    width: 341px;
+    width: 360px;
   }
   .uk-button-toggle-form {
-    max-width: 340px;
+    max-width: 360px;
     width: 100%;
+  }
+}
+@media (min-width: 1280px) {
+  .uk-block-toggle-form > .descr-wr__block {
+    gap: 40px;
   }
 }
 .prop-wr__block {
@@ -12085,6 +12107,11 @@ h3 {
   }
 }
 /* Тут классы с 1200px до 1600px */
+@media (min-width: 1200px) {
+  .uk-padding-20-30 {
+    padding: 20px 20px;
+  }
+}
 .uk-margin-medium-bottom-30 {
   margin: 0 0 30px 0;
 }
