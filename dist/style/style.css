@@ -11968,7 +11968,7 @@ h3 {
 }
 
 .uk-descr-wr__button {
-  width: 341px;
+  max-width: 341px;
   width: 100%;
 }
 
@@ -12036,11 +12036,11 @@ h3 {
     width: 200px;
   }
   .uk-descr-wr__button {
-    width: 360px;
+    max-width: 360px;
+    width: 100%;
   }
   .uk-button-toggle-form {
     max-width: 360px;
-    width: 100%;
   }
 }
 @media (min-width: 1280px) {

@@ -5,7 +5,7 @@
 }
 
 .uk-descr-wr__button {
-  width: 341px;
+  max-width: 341px;
   width: 100%;
 }
 .uk-deskr-wr__text {
@@ -28,7 +28,6 @@
 }
 .uk-button-toggle-form {
   max-width: 360px;
-  // width: 100%;
 }
 
 .uk-gap-40 {
@@ -55,9 +54,7 @@
   .uk-gap-10\@s {
     gap: 10px;
   }
-  .uk-block-toggle-form {
-    // flex-wrap: nowrap;
-  }
+
   .uk-block-toggle-form > .descr-wr__block {
     display: flex;
   }
@@ -73,7 +70,6 @@
   }
   .uk-block-toggle-form > .descr-wr__block {
     justify-content: flex-start;
-    // gap: 10px;
   }
 }
 @media (min-width: 960px) {
@@ -85,11 +81,11 @@
     width: 200px;
   }
   .uk-descr-wr__button {
-    width: 360px;
+    max-width: 360px;
+    width: 100%;
   }
   .uk-button-toggle-form {
     max-width: 360px;
-    width: 100%;
   }
 }
 
