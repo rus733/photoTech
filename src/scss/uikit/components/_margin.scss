@@ -1,0 +1,25 @@
+$margin-small-margin: 10px !important;
+
+// .uk-margin-small-left {
+//   margin-left: $margin-small-margin !important;
+// }
+
+@media (min-width: 960px) {
+  .uk-margin-small-left\@m {
+    margin-left: 30px !important;
+  }
+}
+
+// /* Тут классы с 0px до 640px */
+// .uk-margin-right-25: 25px;
+
+// /* Тут классы с 640px до 960px */
+// @media (min-width: 640px) {
+//   .uk-margin-right-25@s: 25px;
+// }
+
+// /* Тут классы с 960px до 1200px */
+// @media (min-width: 960px) {
+//    .uk-margin-right-25@m: 25px;
+//    .uk-margin-right-50@m: 50px;
+// }

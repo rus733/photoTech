@@ -1,13 +1,20 @@
 // color
 
+$global-color: #333333;
+$global-link-color: #f15d22;
+$global-link-hover-color: #f15d22;
+$base-body-color: #333333;
 //font
 
 $global-font-family: 'Open Sans', sans-serif;
 $global-font-size: 16px;
 $global-small-font-size: 12px;
 
-$global-color: #666666;
-
 //bg
 
-$background-primary-background: #f1f2f3;
+$background-primary-background: #ffffff;
+
+// Used in grid, column, container, align, card, padding
+$global-gutter: 10px;
+
+$button-padding-horizontal: 10px;
