@@ -3,3 +3,7 @@
   margin: 20px;
   padding: 30px;
 }
+//  button mixin
+@mixin hook-button() {
+  padding: 10px;
+}
