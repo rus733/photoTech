@@ -38,4 +38,7 @@ $padding-small-padding: 5px;
 
 /* Тут классы с 1200px до 1600px */
 @media (min-width: 1200px) {
+  .uk-padding-20-30 {
+    padding: 20px 20px;
+  }
 }
