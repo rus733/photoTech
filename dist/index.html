@@ -1,37 +1,187 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>PhotoTech</title>
-    <link rel="stylesheet" href="style/style.css"/>
-    <script src="js/uikit.min.js" defer></script>
-    <script src="js/uikit-icons.min.js" defer></script>
-</head>
-<body>
-    <ul uk-accordion="multiple: true" class="uk-width-1-2@s">
-        <li class="uk-open">
-            <a class="uk-accordion-title" href="#">Item 1</a>
-            <div class="uk-accordion-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua.</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>photoTech4-flex</title>
+    <link rel="stylesheet" href="style/style.css" />
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <!--  -->
+      <!-- <div class="top">
+        <div class="uk-container">
+          <div class="top-wr">
+            <div class="top-left">
+              <ul class="top-menu uk-subnav uk-link-text" uk-margin>
+                <li><a href="#">Наши объекты</a></li>
+                <li><a href="#">BIM модели</a></li>
+                <li><a href="#">Новости</a></li>
+                <li><a href="#">Партнерам и заказчикам</a></li>
+                <li><a href="#">Контакты</a></li>
+              </ul>
             </div>
-        </li>
-        <li>
-            <a class="uk-accordion-title" href="#">Item 2</a>
-            <div class="uk-accordion-content">
-                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor reprehenderit.</p>
+            <div class="top-right">
+              <div class="city-menu uk-form-select" data-uk-form-select>
+                <span>Ваш город:&nbsp </span>
+                <a href="#" class="city-select">Москва</a>
+              </div>
+              <div class="phones">
+                <div>
+                  <img src="./img/top/phone.png" alt="phones" class="phones__img" />
+                  <a href="tel:84957812342" class="phones__number">8 (495) 781-23-42</a>
+                </div>
+                <div>
+                  <img src="./img/top/phone.png" alt="" class="phones__img" />
+                  <a href="tel:88005500101" class="phones__number" type="" tel>8 (800) 550-01-01</a>
+                </div>
+              </div>
+              <div class="free-text">
+                Бесплатно <br />
+                по России
+              </div>
+              <div class="local">
+                <a href="#" class="local__link">
+                  <img src="./img/top/flag-ru.svg" alt="local flag" class="local__img" />
+                  <span><img src="./img/top/arrow_down.svg" alt="select" /></span>
+                </a>
+              </div>
+              <button class="calc-button uk-button uk-button-primary">Заявка на расчет</button>
             </div>
-        </li>
-        <li>
-            <a class="uk-accordion-title" href="#">Item 3</a>
-            <div class="uk-accordion-content uk-accordion-content_blue">
-                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat proident.</p>
+          </div>
+        </div>
+      </div> -->
+      <!-- <div class="head">
+        <div class="uk-container">
+          <div class="head-wr">
+            <a href="#" class="logo">
+              <img src="./img/head/logo.svg" alt="logo" />
+            </a>
+            <ul class="head-nav uk-link-text" uk-margin>
+              <li><a href="#" class="">О компании</a></li>
+              <li><a href="#">Противопожарные конструкции</a></li>
+              <l><a href="#">Защитное остекление</a></l   i>
+              <li><a href="#">Специальные стекла</a></li>
+            </ul>
+          </div>
+        </div>
+      </div> -->
+      <!-- <div class="head-mob mob">
+        <div class="uk-container">
+          <div class="mob-wr">
+            <a href="#" class="head-mob-logo mob-wr__l">
+              <img src="./img/mobile-icons/logo-mobile.svg" alt="logo" class="head-wr__img" />
+            </a>
+            <div class="head-mob-right mob-wr__r">
+              <div class="call">
+                <img src="./img/mobile-icons/call.svg" alt="call" />
+              </div>
+              <div class="search">
+                <img src="./img/mobile-icons/search.svg" alt="search" />
+              </div>
+              <div class="burger">
+                <img src="./img/mobile-icons/burger.svg" alt="burger menu" />
+              </div>
             </div>
-        </li>
-    </ul>
-</body>
+          </div>
+        </div>
+      </div> -->
+    </header>
+    <!-- Хлебные крошки -->
+    <!-- <section class="bread">
+      <div class="uk-container">
+        <nav aria-label="Breadcrumb">
+          <ul class="uk-breadcrumb">
+            <li><a href="#">Огнестойкие конструкции</a></li>
+            <li><a href="#">Специальные стекла </a></li>
+            <li><a href="#">Пожаростойкие стекла</a></li>
+            <li><span>Многослойные огнестойкие стекла</span></li>
+          </ul>
+        </nav>
+      </div>
+    </section> -->
+    <!-- bread-info -->
+    <!-- <section class="bread-info">
+      <div class="uk-container">
+        <div class="bread-info-wr">
+          <div class="left">
+            <h2 class="title uk-text-large">Многослойные огнестойкие стекла</h2>
+            <span>СДЕРЖИВАЮТ ПЛАМЯ И ЗАДЫМЛЕНИЕ ДО 90 МИНУТ</span>
+          </div>
+          <div class="right uk-flex-none">
+            <div class="right-l">
+              <div><img src="./img/bread-item/gosstroy.png" alt="" /></div>
+              <div class="text">
+                рекомендованы<br />
+                к применению<br />
+                ГОССТРОЕМ РФ
+              </div>
+            </div>
+            <div class="right-r">
+              <div><img src="./img/bread-item/gosstroy.png" alt="" /></div>
+              <div class="text">
+                соответствуют<br />
+                ГОСТ Р 53308-2009 I<br />
+                ГОСТ Р 53303-2009
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- descr-->
+    <section class="descr">
+      <div class="uk-container">
+        <div class="descr uk-card uk-card-body uk-card-default">
+          <div class="block uk-flex-center">
+            <div class="block-doc uk-flex uk-text-12 uk-text-center uk-text-middle">
+              <div class="text uk-text-center">Документация и нормативная база:</div>
+            </div>
+            <div class="block-info uk-flex-center uk-text-center uk-text-middle">
+              <img src="./img/descr/descr-sign.svg" alt="exclamation mark" class="img" />
+              <a href="#" class="link">Здесь можно уточнить информацию </a>
+            </div>
+          </div>
+          <div class="">
+            <button class="button uk-button uk-button-secondary">Отправить техническое задание для расчета</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section class="prop uk-padding">
+      <div class="prop-wr">
+        <div class="uk-container-full">
+          <div class="prop-wr__left uk-margin-medium-bottom-30 uk-padding-small_bottom" style="background: url(img/prop/prop-1.jpg) center/cover no-repeat">
+            <div class="prop-wr__text uk-text-small uk-padding-medium uk-overlay-default">
+              Компания ФОТОТЕХ изготавливает под заказ многослойные огнестойкие стекла и стеклопакеты для внутреннего монтажа и фасадного остекления зданий.
+              Собственное производство под требования заказчика с учетом действующих стандартов и норм в области пожарной безопасности объектов.
+            </div>
+          </div>
+        </div>
+
+        <div class="uk-container">
+          <div class="prop-wr__right uk-padding-small uk-padding-remove-top uk-padding-remove-bottom">
+            <div class="prop-wr__block uk-padding-10-0-20">
+              <h3 class="prop-wr__title uk-text-default">
+                Наши стекла могут сочетать и<br />
+                совмещать между собой различные свойства
+              </h3>
+            </div>
+            <ul class="prop-wr__list uk-ul-margin-0 uk-list uk-list-divider uk-padding-5-0">
+              <li><a href="#" class="prop-wr__link uk-color-orange uk-text-13 uk-padding-5-0">Защитные</a></li>
+              <li><a href="#" class="prop-wr__link uk-color-orange uk-text-13 uk-padding-5-0">С регулируемой прозрачностью</a></li>
+              <li><a href="#" class="prop-wr__link uk-color-orange uk-text-13 uk-padding-5-0">Электрообогреваемые</a></li>
+              <li><a href="#" class="prop-wr__link uk-color-orange uk-text-13 uk-padding-5-0">Солнцезащитные</a></li>
+              <li><a href="#" class="prop-wr__link uk-color-orange uk-text-13 uk-padding-5-0">Шумоизоляционные</a></li>
+              <li><a href="#" class="prop-wr__link uk-color-orange uk-text-13 uk-padding-5-0">Декор</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section> -->
+  </body>
 </html>

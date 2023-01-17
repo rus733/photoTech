@@ -1,9 +1,11 @@
-@import "./variables";
+@import './variables';
 
 // import new custom blocks
 
-@import "../components/border";
+@import '../components/border';
 
 // import uikit mod
 
-@import "../uikit/components/accordion";
+@import '../uikit/components/base';
+@import '../uikit/components/accordion';
+@import '../uikit/components/card';
