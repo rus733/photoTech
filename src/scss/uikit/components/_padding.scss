@@ -1,0 +1,34 @@
+.uk-padding-35-15 {
+  padding: 25px 15px;
+}
+
+@media (min-width: 375px) {
+  .uk-padding-35-15\@ss {
+    padding: 35px 15px;
+  }
+}
+@media (min-width: 640px) {
+  .uk-padding-35-15\@s {
+    padding: 40px 15px;
+  }
+}
+
+@media (min-width: 960px) {
+  .uk-padding-35-15\@m {
+    padding: 40px 15px;
+  }
+}
+
+// /* Тут классы с 0px до 640px */
+// .uk-margin-right-25: 25px;
+
+// /* Тут классы с 640px до 960px */
+// @media (min-width: 640px) {
+//   .uk-margin-right-25@s: 25px;
+// }
+
+// /* Тут классы с 960px до 1200px */
+// @media (min-width: 960px) {
+//    .uk-margin-right-25@m: 25px;
+//    .uk-margin-right-50@m: 50px;
+// }
