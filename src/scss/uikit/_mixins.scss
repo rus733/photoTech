@@ -1,4 +1,4 @@
-//  accordions mixin
+//  accordions mixin,
 @mixin hook-accordion() {
   margin: 20px;
   padding: 30px;
@@ -6,4 +6,5 @@
 //  button mixin
 @mixin hook-button() {
   padding: 10px;
+  line-height: 1.2;
 }
