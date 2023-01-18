@@ -1,4 +1,13 @@
 @charset "UTF-8";
+.uk-margin-10 {
+  margin: 10px;
+}
+
+@media (min-width: 960px) {
+  .uk-margin-10\@m {
+    margin-left: 30px;
+  }
+}
 /* ========================================================================
    Component: Base
  ========================================================================== */
@@ -2960,7 +2969,7 @@ select.uk-form-width-xsmall {
 .uk-card-default {
   background-color: #f1f2f3;
   color: #333333;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0.08);
 }
 
 .uk-card-default .uk-card-title {
@@ -8370,6 +8379,7 @@ ul.uk-nav-sub {
 .uk-text-small {
   font-size: 12px;
   line-height: 1.5;
+  font-size: 10px;
 }
 
 .uk-text-large {

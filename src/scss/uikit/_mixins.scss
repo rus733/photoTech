@@ -8,3 +8,11 @@
   padding: 10px;
   line-height: 1.2;
 }
+//  card mixin
+@mixin hook-card-default() {
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0.08);
+}
+//  text mixin
+@mixin hook-text-small() {
+  font-size: 10px;
+}

@@ -1,10 +1,12 @@
-$margin-small-margin: 10px;
+.uk-margin-10 {
+  margin: 10px;
+}
 
-// @media (min-width: $breakpoint-medum) {
-//   .uk-margin-small-left\@m {
-//     margin-left: 30px;
-//   }
-// }
+@media (min-width: 960px) {
+  .uk-margin-10\@m {
+    margin-left: 30px;
+  }
+}
 
 // /* Тут классы с 0px до 640px */
 // .uk-margin-right-25: 25px;
