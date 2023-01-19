@@ -1,10 +1,14 @@
+.uk-margin-left-10 {
+  margin-left: 10px;
+}
+
 .uk-margin-10 {
   margin: 10px;
 }
 
 @media (min-width: 960px) {
   .uk-margin-10\@m {
-    margin-left: 30px;
+    margin: 30px;
   }
 }
 

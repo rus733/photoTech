@@ -1,0 +1,20 @@
+.uk-text-size-12 {
+  font-size: 12px;
+}
+
+@media (min-width: 640px) {
+  .uk-text-size-12\@s {
+    font-size: 14px;
+  }
+}
+
+// @media (min-width: 1280px) {
+//     .uk-text-size-12 {
+//   font-size: 14px;
+// }
+// }
+// @media (min-width: 375px) {
+//   .uk-text-size-12 {
+//   font-size: 12px;
+// }
+// }
