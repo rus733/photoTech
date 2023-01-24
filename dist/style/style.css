@@ -7,13 +7,26 @@
   margin-left: 10px;
 }
 
+.uk-margin-20 {
+  margin: 20px;
+}
+
 .uk-margin-10 {
   margin: 10px;
 }
 
-@media (min-width: 960px) {
-  .uk-margin-10\@m {
+@media (min-width: 1280px) {
+  .uk-margin-10\@l {
     margin: 30px;
+  }
+}
+.uk-margin-bottom-30 {
+  margin-bottom: 30px;
+}
+
+@media (min-width: 870px) {
+  .uk-margin-bottom-30\@ms {
+    margin-bottom: 0px;
   }
 }
 .uk-padding-35-15 {
