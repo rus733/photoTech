@@ -36,12 +36,12 @@
   }
 }
 .uk-text-size-12 {
-  font-size: 12px;
+  font-size: 12px !important;
 }
 
 @media (min-width: 640px) {
   .uk-text-size-12\@s {
-    font-size: 14px;
+    font-size: 14px !important;
   }
 }
 /* ========================================================================
@@ -2175,7 +2175,6 @@ select.uk-form-width-xsmall {
   /* 10 */
   text-decoration: none;
   padding: 10px;
-  font-size: 14px;
   line-height: 1.2;
 }
 
