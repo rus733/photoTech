@@ -1,6 +1,11 @@
+.uk-margin-remove {
+  margin: 0;
+}
+
 .uk-margin-left-10 {
   margin-left: 10px;
 }
+
 .uk-margin-20 {
   margin: 20px;
 }
@@ -8,6 +13,34 @@
 .uk-margin-10 {
   margin: 10px;
 }
+
+@media (min-width: 528px) {
+  .uk-margin-remove\@ss {
+    margin: 0 !important;
+  }
+}
+
+@media (min-width: 640px) {
+  .uk-margin-bottom-30\@s {
+    margin-bottom: 0px;
+  }
+  .uk-margin-remove\@s {
+    margin: 0 !important;
+  }
+}
+
+@media (min-width: 880px) {
+  .uk-margin-bottom-30\@ms {
+    margin-bottom: 0px !important;
+  }
+}
+
+// @media (min-width: 880px) {
+//   .uk-margin-remove-bottom\@mms {
+//     margin-bottom: 0px;
+//   }
+// }
+
 @media (min-width: 1280px) {
   .uk-margin-10\@l {
     margin: 30px;
@@ -22,11 +55,6 @@
 //     margin-bottom: 0px;
 //   }
 // }
-@media (min-width: 870px) {
-  .uk-margin-bottom-30\@ms {
-    margin-bottom: 0px;
-  }
-}
 
 // @media (min-width: 960px) {
 //   .uk-margin-10\@m {
