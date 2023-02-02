@@ -1,6 +1,9 @@
 .uk-margin-remove {
   margin: 0;
 }
+.uk-margin-remove-left {
+  margin-left: 0;
+}
 
 .uk-margin-left-10 {
   margin-left: 10px;
@@ -29,17 +32,11 @@
   }
 }
 
-@media (min-width: 880px) {
+@media (min-width: 1050px) {
   .uk-margin-bottom-30\@ms {
     margin-bottom: 0px !important;
   }
 }
-
-// @media (min-width: 880px) {
-//   .uk-margin-remove-bottom\@mms {
-//     margin-bottom: 0px;
-//   }
-// }
 
 @media (min-width: 1280px) {
   .uk-margin-10\@l {
